@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Segoe UI", Arial, sans-serif;
+}
+header{
+    box-shadow: 5px 0px 4px black;
+    padding: 10px 8px;
+    letter-spacing: 3px;
+    font-size: small;
+    
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    margin-left: 1rem;
+   
+}
+
+.pages{
+    margin-right: 1rem;
+}
+.pages a{
+    padding-left: 20px;
+    text-decoration: none;
+    color: black;
+}
+main .container {
+    margin: 0 auto;
+    width: 80%;
+}
+.main-image{
+    height: 33rem;
+    background-image: url(../assets/images/architect.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 1.5rem;
+}
+.main-image h3 {
+    background-color: black;
+    padding: 7px 10px;
+}
+.project{
+    font-size: large;
+
+}
+hr{
+    margin-top: 1rem ;
+    margin-bottom: 1.3rem;
+    opacity: 0.1;
+}
+.project-images{
+    min-height: 25rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.project-images .image{
+    width: 258px;
+    height: 176px;
+    margin-bottom: 0.7rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.n1{
+    background-image: url(../assets/images/house5.jpg);
+}
+.n2{
+    background-image: url(../assets/images/house2.jpg);
+}
+.n3{
+    background-image: url(../assets/images/house3.jpg);
+}
+.n4{
+    background-image: url(../assets/images/house4.jpg);
+}
+.image p{
+    display: inline-block;
+    background-color: black;
+    color: white;
+    font-size: smaller;
+    padding: 5px 8px;
+    text-align: center;
+}
+.about-content p{
+    text-align: justify;
+}
+.about-cards{
+    margin-top: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-01 {
+    width: 253px;
+    
+}
+.card-01 img{
+    width: 253px;
+    filter: grayscale(0.75);
+    
+}
+.card-content{
+    margin-top: 5px;
+}
+.edit{
+    
+    font-size: small;
+    
+}
+.shade{
+    color: grey;
+}
+.btn{
+    width: 253px;
+    border-style: none;
+    height: 1.5rem;
+}
+.contact p{
+    font-size: small;
+}
+.form input{
+    width: 100%;
+    padding: 3px 0px 3px 3px;
+    margin-bottom: 1rem;
+
+}
+.btn-2{
+    width: 120px;
+    height: 28px;
+    background-color: black;
+    color: white;
+    /* padding: ; */
+    border-style: none;
+}
+.map{
+    margin-top: 2rem;
+    height: 560px;
+    background-image: url(../assets/images/map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: small;
+    padding: 20px 0px;
+}
